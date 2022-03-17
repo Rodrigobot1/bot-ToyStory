@@ -1,0 +1,67 @@
+/*
+Regla CSS
+selector {
+    propiedades de valor;
+}
+*/
+
+*{
+padding: 0;
+margin: 0;
+}
+
+
+body{
+background-image: url(../img/fondo.png);
+}
+
+.header{
+width: 76.5%;
+margin: auto;
+background-color: rgba(255, 255, 255, 0.493);
+}
+
+.titulo{
+margin: auto;
+text-align: left;
+width: 75%;
+background-color: rgba(255, 255, 255, 0.493);
+padding: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h3{ font-family:'Times New Roman', Times, serif;}
+
+.contenido{
+width: 75%;
+margin: auto;
+background-color: rgba(255, 255, 255, 0.493);
+padding: 10px;
+}
+
+img{ width: 100%;}
+
+.imagenes{
+width: 35%;
+padding: 7%;
+border-radius: 80%;
+margin: auto;
+margin-top: -6%;
+}
+
+.descripcion{ 
+width: 50%;
+margin-left: auto;
+float: right;
+margin-top: 5%;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.pie{
+width: 100%;
+}
